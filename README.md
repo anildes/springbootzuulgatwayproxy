@@ -6,6 +6,8 @@ API Gateway Authentication pattern
 Centralized Auth at Gateway level
 Granttype is authorization code 
 
+Follow the videos at https://youtu.be/2fXNkhltmNQ?si=ZNVGsp4g_re3mpAY and https://youtu.be/vfuhwB4Gmac?si=NvQJWZJDK4QtFm-0
+
 How to run this project ?
 ===============================
 Step-by-Step Setup Instructions:
