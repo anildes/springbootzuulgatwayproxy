@@ -30,7 +30,6 @@ spring.security.oauth2.client.registration.google.client-secret=GOCSPX-abcdefghi
 Step 3: Verify Project Structure
 Make sure you have these files:
 
-text
 src/main/resources/
 ├── application.properties
 └── templates/
@@ -45,35 +44,28 @@ src/main/java/com/example/springbootzuulgatwayproxy/
 └── controller/
     ├── LoginController.java
     └── HomeController.java
+    
 Step 4: Run and Test
 bash
 mvn clean compile
 mvn spring-boot:run
 Step 5: Test the Flow
 Open http://localhost:8080
-
 Click "Sign in with Google"
-
 Complete Google authentication
-
 You should be redirected to /home page
 
 Troubleshooting Common Issues:
 If OAuth2 fails:
 Verify Google Cloud Console redirect URI matches exactly
-
 Check client ID/secret have no extra spaces
-
 Ensure Google+ API is enabled in Google Console
 
 If Zuul routes don't work:
 Check target services are running
-
 Verify route paths don't have conflicts
-
 If templates don't render:
 Verify Thymeleaf dependency in POM
-
 Check template files are in src/main/resources/templates/
 
 Expected Output When Running:
