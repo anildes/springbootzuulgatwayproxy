@@ -1,4 +1,4 @@
-To see this instructions click on raw mode and then read this file 
+To see this instructions click on Raw mode and then read this file 
 This project is Java-based microservices gateway application using Spring Cloud and Zuul. It is configured to route requests (e.g., /student) to backend services and includes OAuth2 integration with Google for authentication. 
 This project does a demo of 
 OAuth2 Authorization Code Flow with Google
